@@ -1,2 +1,2 @@
 # The_Articfox
-a futuristic portfolio site built with python
+a futuristic portfolio site built with React
