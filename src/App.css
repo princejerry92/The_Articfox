@@ -1,0 +1,29 @@
+.app-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side-navbar {
+  flex-basis: 15%; /* Adjust as per design */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  position: relative;
+}
+
+.main-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 20px;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.features-menu-container {
+  flex-basis: 20%;
+}
